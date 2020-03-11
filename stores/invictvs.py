@@ -13,7 +13,7 @@ def has_stock(item):
 class invictvs:
     @staticmethod
     def getItems(title):
-        print('Buscando resultados en ' + bcolors.OKBLUE +
+        print('Buscando ' + bcolors.HEADER + title + bcolors.ENDC + ' en ' + bcolors.OKBLUE +
               'Invictvs' + bcolors.ENDC + '...'),
 
         url = 'https://invictvs.com.ar/tienda/search?controller=search&orderby=position&orderway=desc&search_query_cat=0&search_query=' + title

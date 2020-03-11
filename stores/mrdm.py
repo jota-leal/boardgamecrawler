@@ -13,7 +13,7 @@ def has_stock(item):
 class mrdm:
     @staticmethod
     def getItems(title):
-        print('Buscando resultados en ' + bcolors.OKBLUE +
+        print('Buscando ' + bcolors.HEADER + title + bcolors.ENDC + ' en ' + bcolors.OKBLUE +
               'Mr DM' + bcolors.ENDC + '...'),
 
         url = 'https://mrdm.store/?post_type=product&s=' + title

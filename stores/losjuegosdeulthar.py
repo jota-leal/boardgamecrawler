@@ -15,7 +15,7 @@ def has_stock(item):
 class losjuegosdeulthar:
     @staticmethod
     def getItems(title):
-        print('Buscando resultados en ' + bcolors.OKBLUE +
+        print('Buscando ' + bcolors.HEADER + title + bcolors.ENDC + ' en ' + bcolors.OKBLUE +
               'Los juegos de Ulthar' + bcolors.ENDC + '...'),
 
         url = 'https://www.losjuegosdeulthar.com.ar/search/?q=' + title

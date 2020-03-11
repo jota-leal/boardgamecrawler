@@ -15,7 +15,7 @@ def has_stock(item):
 class lacuevadelokami:
     @staticmethod
     def getItems(title):
-        print('Buscando resultados en ' + bcolors.OKBLUE +
+        print('Buscando ' + bcolors.HEADER + title + bcolors.ENDC + ' en ' + bcolors.OKBLUE +
               'La cueva del Okami' + bcolors.ENDC + '...'),
 
         url = 'https://www.lacuevadelokami.com.ar/search/?q=' + title

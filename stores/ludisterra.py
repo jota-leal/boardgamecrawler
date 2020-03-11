@@ -13,7 +13,7 @@ def has_stock(item):
 class ludisterra:
     @staticmethod
     def getItems(title):
-        print('Buscando resultados en ' + bcolors.OKBLUE +
+        print('Buscando ' + bcolors.HEADER + title + bcolors.ENDC + ' en ' + bcolors.OKBLUE +
               'Ludisterra' + bcolors.ENDC + '...'),
 
         url = 'https://ludisterra.com.ar/?post_type=product&s=' + title

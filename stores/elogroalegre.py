@@ -14,7 +14,7 @@ def has_stock(item):
 class elogroalegre:
     @staticmethod
     def getItems(title):
-        print('Buscando resultados en ' + bcolors.OKBLUE +
+        print('Buscando ' + bcolors.HEADER + title + bcolors.ENDC + ' en ' + bcolors.OKBLUE +
               'El Ogro Alegre' + bcolors.ENDC + '...'),
 
         url = 'https://www.elogroalegre.com.ar/search/?q=' + title

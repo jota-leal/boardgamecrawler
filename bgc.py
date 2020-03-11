@@ -7,6 +7,8 @@ from stores.ludisterra import ludisterra
 from stores.mrdm import mrdm
 from bcolors import bcolors
 
+print
+
 items = []
 items.extend(elogroalegre.getItems(sys.argv[1]))
 items.extend(invictvs.getItems(sys.argv[1]))
@@ -16,6 +18,7 @@ items.extend(ludisterra.getItems(sys.argv[1]))
 items.extend(mrdm.getItems(sys.argv[1]))
 
 print
+
 for item in items:
     stock = ''
     if not item['stock']:
